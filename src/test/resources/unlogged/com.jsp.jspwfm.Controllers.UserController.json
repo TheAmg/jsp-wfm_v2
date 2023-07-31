@@ -1,0 +1,43 @@
+{
+  "classname" : "com.jsp.jspwfm.Controllers.UserController",
+  "storedCandidateMap" : {
+    "testFetchUser#(Ljava/lang/String;)Lcom/jsp/jspwfm/Models/Entities/User;" : [ {
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : null,
+          "expression" : "SELF",
+          "expectedValue" : "",
+          "id" : "973263eb-85c5-4a98-b1a9-ee95ffdfe2ad",
+          "assertionType" : "EQUAL",
+          "key" : "root"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "59c4782d-7d28-4613-988b-9791f8a53b7d",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "2297bd7a-efac-4035-951e-ac802b4e7381",
+      "name" : "admin case",
+      "description" : "aaa update",
+      "methodArguments" : [ "\"admin\"" ],
+      "returnValue" : "{\"user_id\":1,\"username\":\"BBB\",\"password\":\"admin\",\"email\":\"admin@jsp_wfm\"}",
+      "returnValueClassname" : "com.jsp.jspwfm.Models.Entities.User",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1690789399042,
+        "candidateStatus" : "FAILING"
+      },
+      "entryProbeIndex" : 779393330,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6IkFBQUFBIiwicGFzc3dvcmQiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AanNwX3dmbSJ9",
+      "exception" : false,
+      "method" : {
+        "name" : "testFetchUser",
+        "signature" : "(Ljava/lang/String;)Lcom/jsp/jspwfm/Models/Entities/User;",
+        "className" : "com.jsp.jspwfm.Controllers.UserController",
+        "methodHash" : -1272652421
+      }
+    } ]
+  }
+}
