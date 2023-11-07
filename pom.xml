@@ -8,7 +8,7 @@
 		<version>3.0.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.jsp</groupId>
+	<groupId>com.jsp.wfm</groupId>
 	<artifactId>jsp-wfm</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>jsp-wfm</name>
@@ -25,13 +25,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
-
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>2.6</version>
-		</dependency>
-
 		<dependency>
 			<groupId>joda-time</groupId>
 			<artifactId>joda-time</artifactId>
@@ -69,6 +62,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.6</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
@@ -97,7 +96,7 @@
 		<dependency>
 			<artifactId>unlogged-sdk</artifactId>
 			<groupId>video.bug</groupId>
-			<version>0.0.12</version>
+			<version>0.1.15</version>
 		</dependency>
 	</dependencies>
 	<build>
@@ -114,6 +113,19 @@
 					</excludes>
 				</configuration>
 			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>org.apache.maven.plugins</groupId>-->
+<!--				<artifactId>maven-compiler-plugin</artifactId>-->
+<!--				<configuration>-->
+<!--					<annotationProcessorPaths>-->
+<!--						<annotationProcessorPath>-->
+<!--							<artifactId>unlogged-sdk</artifactId>-->
+<!--							<groupId>video.bug</groupId>-->
+<!--							<version>0.0.15</version>-->
+<!--						</annotationProcessorPath>-->
+<!--					</annotationProcessorPaths>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
 		</plugins>
 	</build>
 

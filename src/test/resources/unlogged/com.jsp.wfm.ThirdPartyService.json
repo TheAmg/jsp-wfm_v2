@@ -1,0 +1,45 @@
+{
+  "classname" : "com.jsp.wfm.ThirdPartyService",
+  "storedCandidateMap" : {
+    "com.jsp.wfm.ThirdPartyService#getWeatherFor#(Ljava/lang/String;)Lcom/jsp/wfm/Models/Entities/WeatherInfo;" : [ {
+      "lineNumbers" : [ 12, 13 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"location\":{\"name\":\"London\",\"region\":\"City of London, Greater London\",\"country\":\"United Kingdom\",\"lat\":51.52,\"lon\":-0.11,\"tz_id\":\"Europe/London\",\"localtime_epoch\":1699354981,\"localtime\":\"2023-11-07 11:03\"},\"current\":{\"temp_c\":10.0,\"temp_f\":50.0,\"is_day\":1,\"condition\":{\"text\":\"Partly cloudy\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/day/116.png\",\"code\":1003},\"wind_mph\":13.6,\"wind_kph\":22.0,\"wind_degree\":260,\"wind_dir\":\"W\",\"pressure_mb\":1008.0,\"pressure_in\":29.77,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":82,\"cloud\":25,\"feelslike_c\":7.6,\"feelslike_f\":45.7,\"vis_km\":10.0,\"vis_miles\":6.0,\"uv\":4.0,\"gust_mph\":13.8,\"gust_kph\":22.2}}",
+          "id" : "84bb3cea-3376-4d53-99f5-79fc58aba71c",
+          "assertionType" : "NOT_EMPTY",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "1e387bd7-30b5-477f-908c-ad376a4b25d9",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "9b317fd9-1ed9-445e-aae0-da19e01d4af6",
+      "name" : "london case w",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ "\"london\"" ],
+      "returnValue" : "{\"location\":{\"name\":\"London\",\"region\":\"City of London, Greater London\",\"country\":\"United Kingdom\",\"lat\":51.52,\"lon\":-0.11,\"tz_id\":\"Europe/London\",\"localtime_epoch\":1699354981,\"localtime\":\"2023-11-07 11:03\"},\"current\":{\"temp_c\":10.0,\"temp_f\":50.0,\"is_day\":1,\"condition\":{\"text\":\"Partly cloudy\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/day/116.png\",\"code\":1003},\"wind_mph\":13.6,\"wind_kph\":22.0,\"wind_degree\":260,\"wind_dir\":\"W\",\"pressure_mb\":1008.0,\"pressure_in\":29.77,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":82,\"cloud\":25,\"feelslike_c\":7.6,\"feelslike_f\":45.7,\"vis_km\":10.0,\"vis_miles\":6.0,\"uv\":4.0,\"gust_mph\":13.8,\"gust_kph\":22.2}}",
+      "returnValueClassname" : "com.jsp.wfm.Models.Entities.WeatherInfo",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1699355039120,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -1694447458,
+      "probSerializedValue" : "eyJsb2NhdGlvbiI6eyJuYW1lIjoiTG9uZG9uIiwicmVnaW9uIjoiQ2l0eSBvZiBMb25kb24sIEdyZWF0ZXIgTG9uZG9uIiwiY291bnRyeSI6IlVuaXRlZCBLaW5nZG9tIiwibGF0Ijo1MS41MiwibG9uIjotMC4xMSwidHpfaWQiOiJFdXJvcGUvTG9uZG9uIiwibG9jYWx0aW1lX2Vwb2NoIjoxNjk5MzU0OTgxLCJsb2NhbHRpbWUiOiIyMDIzLTExLTA3IDExOjAzIn0sImN1cnJlbnQiOnsidGVtcF9jIjoxMC4wLCJ0ZW1wX2YiOjUwLjAsImlzX2RheSI6MSwiY29uZGl0aW9uIjp7InRleHQiOiJQYXJ0bHkgY2xvdWR5IiwiaWNvbiI6Ii8vY2RuLndlYXRoZXJhcGkuY29tL3dlYXRoZXIvNjR4NjQvZGF5LzExNi5wbmciLCJjb2RlIjoxMDAzfSwid2luZF9tcGgiOjEzLjYsIndpbmRfa3BoIjoyMi4wLCJ3aW5kX2RlZ3JlZSI6MjYwLCJ3aW5kX2RpciI6IlciLCJwcmVzc3VyZV9tYiI6MTAwOC4wLCJwcmVzc3VyZV9pbiI6MjkuNzcsInByZWNpcF9tbSI6MC4wLCJwcmVjaXBfaW4iOjAuMCwiaHVtaWRpdHkiOjgyLCJjbG91ZCI6MjUsImZlZWxzbGlrZV9jIjo3LjYsImZlZWxzbGlrZV9mIjo0NS43LCJ2aXNfa20iOjEwLjAsInZpc19taWxlcyI6Ni4wLCJ1diI6NC4wLCJndXN0X21waCI6MTMuOCwiZ3VzdF9rcGgiOjIyLjJ9fQ==",
+      "exception" : false,
+      "method" : {
+        "name" : "getWeatherFor",
+        "signature" : "(Ljava/lang/String;)Lcom/jsp/wfm/Models/Entities/WeatherInfo;",
+        "className" : "com.jsp.wfm.ThirdPartyService",
+        "methodHash" : 1164978035
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

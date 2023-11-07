@@ -1,0 +1,28 @@
+{
+  "classname" : "com.jsp.wfm.Services.UserService",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "com.jsp.wfm.Services.UserService#getUser#(Ljava/lang/String;)Lcom/jsp/wfm/Models/Entities/User;" : [ {
+      "id" : "f32da090-5854-45d8-81e8-fd2cf9f3ba09",
+      "name" : "mock response userService.getUser",
+      "fieldTypeName" : "com.jsp.wfm.Services.UserService",
+      "sourceClassName" : "com.jsp.wfm.Controllers.UserController",
+      "fieldName" : "userService",
+      "methodName" : "getUser",
+      "whenParameter" : [ {
+        "name" : "username",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\n  \"user_id\" : 1,\n  \"username\" : \"1\",\n  \"password\" : \"1\",\n  \"email\" : \"1\"\n}",
+          "returnValueType" : "REAL",
+          "className" : "com.jsp.wfm.Models.Entities.User"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}
