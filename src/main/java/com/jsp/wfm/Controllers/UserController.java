@@ -213,7 +213,6 @@ public class UserController {
     }
 
     public boolean getbool(boolean b) {
-        customService.getValue();
         return b;
     }
 

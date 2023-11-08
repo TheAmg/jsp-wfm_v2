@@ -2,24 +2,20 @@
   "classname" : "com.jsp.wfm.Services.UserService",
   "storedCandidateMap" : { },
   "declaredMockMap" : {
-    "com.jsp.wfm.Services.UserService#getUser#(Ljava/lang/String;)Lcom/jsp/wfm/Models/Entities/User;" : [ {
-      "id" : "f32da090-5854-45d8-81e8-fd2cf9f3ba09",
-      "name" : "mock response userService.getUser",
+    "com.jsp.wfm.Services.UserService#getNumber#()I" : [ {
+      "id" : "7e9ebd61-2a91-4e69-8bc3-0784c100ab90",
+      "name" : "case def",
       "fieldTypeName" : "com.jsp.wfm.Services.UserService",
       "sourceClassName" : "com.jsp.wfm.Controllers.UserController",
       "fieldName" : "userService",
-      "methodName" : "getUser",
-      "whenParameter" : [ {
-        "name" : "username",
-        "type" : "ANY_OF_TYPE",
-        "value" : "java.lang.String"
-      } ],
+      "methodName" : "getNumber",
+      "whenParameter" : [ ],
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\n  \"user_id\" : 1,\n  \"username\" : \"1\",\n  \"password\" : \"1\",\n  \"email\" : \"1\"\n}",
+          "value" : "1",
           "returnValueType" : "REAL",
-          "className" : "com.jsp.wfm.Models.Entities.User"
+          "className" : "int"
         },
         "methodExitType" : "NORMAL"
       } ]
