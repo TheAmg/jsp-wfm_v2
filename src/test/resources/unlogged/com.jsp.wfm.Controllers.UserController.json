@@ -1,132 +1,86 @@
 {
   "classname" : "com.jsp.wfm.Controllers.UserController",
   "storedCandidateMap" : {
-    "com.jsp.wfm.Controllers.UserController#getTestText#()Ljava/lang/String;" : [ {
-      "lineNumbers" : [ 50, 51, 54 ],
+    "com.jsp.wfm.Controllers.UserController#testFetchUser#(Ljava/lang/String;)Lcom/jsp/wfm/Models/Entities/User;" : [ {
+      "lineNumbers" : [ 32 ],
       "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "\"cc\"",
-          "id" : "fca11ab7-0036-4e6b-856d-a38f76150cc6",
+          "expectedValue" : "{\"user_id\":4,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"}",
+          "id" : "9e7bff72-7e3c-4229-98d2-5280ad241164",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "6e0de650-6ad7-4991-986e-ce96285e1f61",
+        "id" : "51c5b874-02df-46ef-9ae6-a2a345e18050",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "5cda40e3-21d8-4aa1-974f-b882163ce7b7",
-      "name" : "cc case",
+      "candidateId" : "5ea4dd62-57b5-4734-9883-c5eae9b92553",
+      "name" : "ub4",
       "description" : "assert that the response value matches expected value",
-      "methodArguments" : [ ],
-      "returnValue" : "\"cc\"",
-      "returnValueClassname" : "java.lang.String",
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "{\"user_id\":4,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"}",
+      "returnValueClassname" : "com.jsp.wfm.Models.Entities.User",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 1699445956885,
+        "timestamp" : 1699511539767,
         "candidateStatus" : "PASSING"
       },
-      "sessionIdentifier" : -1980711599,
-      "probSerializedValue" : "ImNjIg==",
+      "sessionIdentifier" : 1307845356,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjo0LCJ1c2VybmFtZSI6InN0cmluZyIsInBhc3N3b3JkIjoic3RyaW5nIiwiZW1haWwiOiJzdHJpbmcifQ==",
       "mockIds" : [ ],
       "exception" : false,
       "method" : {
-        "name" : "getTestText",
-        "signature" : "()Ljava/lang/String;",
+        "name" : "testFetchUser",
+        "signature" : "(Ljava/lang/String;)Lcom/jsp/wfm/Models/Entities/User;",
         "className" : "com.jsp.wfm.Controllers.UserController",
-        "methodHash" : 246063986
+        "methodHash" : -279517544
       }
     } ],
-    "com.jsp.wfm.Controllers.UserController#getbool#(Z)Z" : [ ],
-    "com.jsp.wfm.Controllers.UserController#f#(Ljava/lang/Float;Ljava/lang/Float;)Ljava/lang/Float;" : [ ],
-    "com.jsp.wfm.Controllers.UserController#getInt#()I" : [ {
-      "lineNumbers" : [ 139, 140 ],
+    "com.jsp.wfm.Controllers.UserController#getfloat#(F)F" : [ {
+      "lineNumbers" : [ 206, 207 ],
       "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "16",
-          "id" : "e7285eb4-f6ad-4662-a82e-5c4d31ec13c1",
+          "expectedValue" : "88.0",
+          "id" : "41f39905-a965-4a17-8986-2640203aa0ff",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "c7bb23d5-239e-4ac6-bd5f-5416eb8d3891",
+        "id" : "8ee04fc3-8324-4034-8d75-3ad3eac1547f",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "50e43ab9-25ad-4e7e-b5d2-6ade69fa27eb",
-      "name" : "i16",
+      "candidateId" : "ff0b379a-5520-4690-949e-c5660e480a1a",
+      "name" : "f88",
       "description" : "assert that the response value matches expected value",
-      "methodArguments" : [ ],
-      "returnValue" : "16",
-      "returnValueClassname" : "I",
+      "methodArguments" : [ "1118830592" ],
+      "returnValue" : "88.0",
+      "returnValueClassname" : "F",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 1699447287954,
+        "timestamp" : 1699510886699,
         "candidateStatus" : "PASSING"
       },
-      "sessionIdentifier" : 580020678,
+      "sessionIdentifier" : -1796181894,
       "probSerializedValue" : "",
       "mockIds" : [ ],
       "exception" : false,
       "method" : {
-        "name" : "getInt",
-        "signature" : "()I",
+        "name" : "getfloat",
+        "signature" : "(F)F",
         "className" : "com.jsp.wfm.Controllers.UserController",
-        "methodHash" : -1332583369
+        "methodHash" : 701528094
       }
-    } ],
-    "com.jsp.wfm.Controllers.UserController#getTestPojo#()Ljava/lang/Object;" : [ ],
-    "com.jsp.wfm.Controllers.UserController#jodatest#()Lorg/joda/time/DateTime;" : [ ],
-    "com.jsp.wfm.Controllers.UserController#getfloat#(F)F" : [ ],
-    "com.jsp.wfm.Controllers.UserController#getULI#()Lcom/jsp/wfm/Models/Entities/UserListInfo;" : [ {
-      "lineNumbers" : [ 131 ],
-      "testAssertions" : {
-        "subAssertions" : [ {
-          "subAssertions" : [ ],
-          "expression" : "SELF",
-          "expectedValue" : "{\"id\":0,\"users\":[{\"user_id\":1,\"username\":\"admin\",\"password\":\"admin\",\"email\":\"admin@jsp_wfm\"},{\"user_id\":2,\"username\":\"user2\",\"password\":\"user2\",\"email\":\"user2@gmail.com\"},{\"user_id\":3,\"username\":\"user3\",\"password\":\"user3\",\"email\":\"user3@gmail.com\"},{\"user_id\":4,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"},{\"user_id\":22,\"username\":\"22\",\"password\":\"22\",\"email\":\"22\"},{\"user_id\":230,\"username\":\"23\",\"password\":\"23\",\"email\":\"23\"},{\"user_id\":420,\"username\":\"f\",\"password\":\"f\",\"email\":\"f\"},{\"user_id\":423,\"username\":\"asgore\",\"password\":\"string\",\"email\":\"asgore@hell.co\"}]}",
-          "id" : "79858a50-5ab5-48ff-aed0-df538d1df504",
-          "assertionType" : "EQUAL",
-          "key" : "/"
-        } ],
-        "expression" : "SELF",
-        "expectedValue" : null,
-        "id" : "5f7c39e9-f6a4-424d-86b6-94b5814bc739",
-        "assertionType" : "ALLOF",
-        "key" : null
-      },
-      "candidateId" : "c13dcfdc-f306-4298-bf99-0d9595cf2bdd",
-      "name" : "getuli",
-      "description" : "assert that the response value matches expected value",
-      "methodArguments" : [ ],
-      "returnValue" : "{\"id\":0,\"users\":[{\"user_id\":1,\"username\":\"admin\",\"password\":\"admin\",\"email\":\"admin@jsp_wfm\"},{\"user_id\":2,\"username\":\"user2\",\"password\":\"user2\",\"email\":\"user2@gmail.com\"},{\"user_id\":3,\"username\":\"user3\",\"password\":\"user3\",\"email\":\"user3@gmail.com\"},{\"user_id\":4,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"},{\"user_id\":22,\"username\":\"22\",\"password\":\"22\",\"email\":\"22\"},{\"user_id\":230,\"username\":\"23\",\"password\":\"23\",\"email\":\"23\"},{\"user_id\":420,\"username\":\"f\",\"password\":\"f\",\"email\":\"f\"},{\"user_id\":423,\"username\":\"asgore\",\"password\":\"string\",\"email\":\"asgore@hell.co\"}]}",
-      "returnValueClassname" : "com.jsp.wfm.Models.Entities.UserListInfo",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 1699446466797,
-        "candidateStatus" : "PASSING"
-      },
-      "sessionIdentifier" : 360009207,
-      "probSerializedValue" : "eyJpZCI6MCwidXNlcnMiOlt7InVzZXJfaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJwYXNzd29yZCI6ImFkbWluIiwiZW1haWwiOiJhZG1pbkBqc3Bfd2ZtIn0seyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6InVzZXIyIiwicGFzc3dvcmQiOiJ1c2VyMiIsImVtYWlsIjoidXNlcjJAZ21haWwuY29tIn0seyJ1c2VyX2lkIjozLCJ1c2VybmFtZSI6InVzZXIzIiwicGFzc3dvcmQiOiJ1c2VyMyIsImVtYWlsIjoidXNlcjNAZ21haWwuY29tIn0seyJ1c2VyX2lkIjo0LCJ1c2VybmFtZSI6InN0cmluZyIsInBhc3N3b3JkIjoic3RyaW5nIiwiZW1haWwiOiJzdHJpbmcifSx7InVzZXJfaWQiOjIyLCJ1c2VybmFtZSI6IjIyIiwicGFzc3dvcmQiOiIyMiIsImVtYWlsIjoiMjIifSx7InVzZXJfaWQiOjIzMCwidXNlcm5hbWUiOiIyMyIsInBhc3N3b3JkIjoiMjMiLCJlbWFpbCI6IjIzIn0seyJ1c2VyX2lkIjo0MjAsInVzZXJuYW1lIjoiZiIsInBhc3N3b3JkIjoiZiIsImVtYWlsIjoiZiJ9LHsidXNlcl9pZCI6NDIzLCJ1c2VybmFtZSI6ImFzZ29yZSIsInBhc3N3b3JkIjoic3RyaW5nIiwiZW1haWwiOiJhc2dvcmVAaGVsbC5jbyJ9XX0=",
-      "mockIds" : [ ],
-      "exception" : false,
-      "method" : {
-        "name" : "getULI",
-        "signature" : "()Lcom/jsp/wfm/Models/Entities/UserListInfo;",
-        "className" : "com.jsp.wfm.Controllers.UserController",
-        "methodHash" : -457017353
-      }
-    } ],
-    "com.jsp.wfm.Controllers.UserController#getPojoF#()Lcom/jsp/wfm/Controllers/PojoF;" : [ ]
+    } ]
   },
   "declaredMockMap" : { }
 }
