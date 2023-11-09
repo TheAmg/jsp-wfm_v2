@@ -1,6 +1,126 @@
 {
   "classname" : "com.jsp.wfm.Controllers.UserController",
   "storedCandidateMap" : {
+    "com.jsp.wfm.Controllers.UserController#getbool#(Z)Z" : [ {
+      "lineNumbers" : [ 216 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "bc248462-c146-4ca0-88b8-c869ca0c1418",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "55cf74ad-d171-42bd-9f50-28651dea3cfa",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "94b19d9b-2277-49b1-96f8-83810604c20a",
+      "name" : "bool true",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ "1" ],
+      "returnValue" : "1",
+      "returnValueClassname" : "Z",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1699513422597,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 949268316,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getbool",
+        "signature" : "(Z)Z",
+        "className" : "com.jsp.wfm.Controllers.UserController",
+        "methodHash" : -1407176061
+      }
+    } ],
+    "com.jsp.wfm.Controllers.UserController#f#(Ljava/lang/Float;Ljava/lang/Float;)Ljava/lang/Float;" : [ {
+      "lineNumbers" : [ 122, 123 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "13.0",
+          "id" : "876615df-fe0a-449a-95f0-f55cd782eb9e",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "a6850bfe-8ec3-4b35-8123-c30a92ea835d",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "51a537a8-869b-4d6e-9d5c-503948ed1b65",
+      "name" : "fcase f",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ "8.0", "5.0" ],
+      "returnValue" : "13.0",
+      "returnValueClassname" : "java.lang.Float",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1699513534304,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 117138538,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "f",
+        "signature" : "(Ljava/lang/Float;Ljava/lang/Float;)Ljava/lang/Float;",
+        "className" : "com.jsp.wfm.Controllers.UserController",
+        "methodHash" : -1532894568
+      }
+    } ],
+    "com.jsp.wfm.Controllers.UserController#getInt#()I" : [ {
+      "lineNumbers" : [ 139, 140 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "16",
+          "id" : "0d33805b-c336-4d9c-bfa3-a509851d0256",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "0d9fa85a-2648-43c6-b6d6-1a19f2b418c4",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "59703d48-a467-4b76-8958-c0a90e4b4e8b",
+      "name" : "ic4",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ ],
+      "returnValue" : "16",
+      "returnValueClassname" : "I",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1699513345868,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -1999781826,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getInt",
+        "signature" : "()I",
+        "className" : "com.jsp.wfm.Controllers.UserController",
+        "methodHash" : -1332583369
+      }
+    } ],
     "com.jsp.wfm.Controllers.UserController#testFetchUser#(Ljava/lang/String;)Lcom/jsp/wfm/Models/Entities/User;" : [ {
       "lineNumbers" : [ 32 ],
       "testAssertions" : {
@@ -41,6 +161,86 @@
         "methodHash" : -279517544
       }
     } ],
+    "com.jsp.wfm.Controllers.UserController#getTestPojo#()Ljava/lang/Object;" : [ {
+      "lineNumbers" : [ 76, 77, 78, 79, 80 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"id\":0,\"x\":0,\"name\":\"f\"}",
+          "id" : "4e390917-85d7-4507-92c1-ccd7a78234f0",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "bbd6a9e5-b3ea-47f7-acb4-a8c4e3a18c3b",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "3ef97289-0437-4ec7-90c2-b7876df6ec18",
+      "name" : "pbuilder",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ ],
+      "returnValue" : "{\"id\":0,\"x\":0,\"name\":\"f\"}",
+      "returnValueClassname" : "com.jsp.wfm.Models.Entities.pojo",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1699513146414,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 2607704,
+      "probSerializedValue" : "eyJpZCI6MCwieCI6MCwibmFtZSI6ImYifQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getTestPojo",
+        "signature" : "()Ljava/lang/Object;",
+        "className" : "com.jsp.wfm.Controllers.UserController",
+        "methodHash" : 1255150875
+      }
+    } ],
+    "com.jsp.wfm.Controllers.UserController#jodatest#()Lorg/joda/time/DateTime;" : [ {
+      "lineNumbers" : [ 69, 70 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"2023\"",
+          "id" : "91288874-f106-4263-8947-87f93e94d53b",
+          "assertionType" : "STARTS_WITH",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "f3f42544-43b9-43ca-8f5f-442cf1d23963",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "1e48f8c4-f5a0-48d1-8512-1a23d58e61d5",
+      "name" : "joda",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ ],
+      "returnValue" : "\"2023-11-09T06:57:32.275Z\"",
+      "returnValueClassname" : "org.joda.time.DateTime",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1699513075347,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 1272914698,
+      "probSerializedValue" : "IjIwMjMtMTEtMDlUMDY6NTc6MzIuMjc1WiI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "jodatest",
+        "signature" : "()Lorg/joda/time/DateTime;",
+        "className" : "com.jsp.wfm.Controllers.UserController",
+        "methodHash" : 2089072501
+      }
+    } ],
     "com.jsp.wfm.Controllers.UserController#getfloat#(F)F" : [ {
       "lineNumbers" : [ 206, 207 ],
       "testAssertions" : {
@@ -79,6 +279,86 @@
         "signature" : "(F)F",
         "className" : "com.jsp.wfm.Controllers.UserController",
         "methodHash" : 701528094
+      }
+    } ],
+    "com.jsp.wfm.Controllers.UserController#getULI#()Lcom/jsp/wfm/Models/Entities/UserListInfo;" : [ {
+      "lineNumbers" : [ 131 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SIZE",
+          "expectedValue" : "8",
+          "id" : "113a6083-433c-470c-8abb-e07bbc674bf6",
+          "assertionType" : "EQUAL",
+          "key" : "/users"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "3a1ac0ec-545e-4934-96df-4a38f137c4b8",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "08346d97-7c26-4306-b1f8-df5df19d64bc",
+      "name" : "size 4",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ ],
+      "returnValue" : "{\"id\":0,\"users\":[{\"user_id\":1,\"username\":\"admin\",\"password\":\"admin\",\"email\":\"admin@jsp_wfm\"},{\"user_id\":2,\"username\":\"user2\",\"password\":\"user2\",\"email\":\"user2@gmail.com\"},{\"user_id\":3,\"username\":\"user3\",\"password\":\"user3\",\"email\":\"user3@gmail.com\"},{\"user_id\":4,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"},{\"user_id\":22,\"username\":\"22\",\"password\":\"22\",\"email\":\"22\"},{\"user_id\":230,\"username\":\"23\",\"password\":\"23\",\"email\":\"23\"},{\"user_id\":420,\"username\":\"f\",\"password\":\"f\",\"email\":\"f\"},{\"user_id\":423,\"username\":\"asgore\",\"password\":\"string\",\"email\":\"asgore@hell.co\"}]}",
+      "returnValueClassname" : "com.jsp.wfm.Models.Entities.UserListInfo",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1699512764196,
+        "candidateStatus" : "FAILING"
+      },
+      "sessionIdentifier" : -1563870417,
+      "probSerializedValue" : "eyJpZCI6MCwidXNlcnMiOlt7InVzZXJfaWQiOjEsInVzZXJuYW1lIjoiYWRtaW4iLCJwYXNzd29yZCI6ImFkbWluIiwiZW1haWwiOiJhZG1pbkBqc3Bfd2ZtIn0seyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6InVzZXIyIiwicGFzc3dvcmQiOiJ1c2VyMiIsImVtYWlsIjoidXNlcjJAZ21haWwuY29tIn0seyJ1c2VyX2lkIjozLCJ1c2VybmFtZSI6InVzZXIzIiwicGFzc3dvcmQiOiJ1c2VyMyIsImVtYWlsIjoidXNlcjNAZ21haWwuY29tIn0seyJ1c2VyX2lkIjo0LCJ1c2VybmFtZSI6InN0cmluZyIsInBhc3N3b3JkIjoic3RyaW5nIiwiZW1haWwiOiJzdHJpbmcifSx7InVzZXJfaWQiOjIyLCJ1c2VybmFtZSI6IjIyIiwicGFzc3dvcmQiOiIyMiIsImVtYWlsIjoiMjIifSx7InVzZXJfaWQiOjIzMCwidXNlcm5hbWUiOiIyMyIsInBhc3N3b3JkIjoiMjMiLCJlbWFpbCI6IjIzIn0seyJ1c2VyX2lkIjo0MjAsInVzZXJuYW1lIjoiZiIsInBhc3N3b3JkIjoiZiIsImVtYWlsIjoiZiJ9LHsidXNlcl9pZCI6NDIzLCJ1c2VybmFtZSI6ImFzZ29yZSIsInBhc3N3b3JkIjoic3RyaW5nIiwiZW1haWwiOiJhc2dvcmVAaGVsbC5jbyJ9XX0=",
+      "mockIds" : [ "5826dc4b-125f-4a12-a2de-72875fa8ba6a" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getULI",
+        "signature" : "()Lcom/jsp/wfm/Models/Entities/UserListInfo;",
+        "className" : "com.jsp.wfm.Controllers.UserController",
+        "methodHash" : -457017353
+      }
+    } ],
+    "com.jsp.wfm.Controllers.UserController#getPojoF#()Lcom/jsp/wfm/Controllers/PojoF;" : [ {
+      "lineNumbers" : [ 169 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"x\":10,\"f\":12.0,\"d\":24.0,\"e\":\"e\"}",
+          "id" : "a835c058-3601-422b-a03f-b9331a6dbb52",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "d40621de-437e-4ade-81c6-f20b2dc9f0e9",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "61779e20-e62f-4353-9065-775a4f6b20dd",
+      "name" : "pojof",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ ],
+      "returnValue" : "{\"x\":10,\"f\":12.0,\"d\":24.0,\"e\":\"e\"}",
+      "returnValueClassname" : "com.jsp.wfm.Controllers.PojoF",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1699513249634,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 1058183561,
+      "probSerializedValue" : "eyJ4IjoxMCwiZiI6MTIuMCwiZCI6MjQuMCwiZSI6ImUifQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getPojoF",
+        "signature" : "()Lcom/jsp/wfm/Controllers/PojoF;",
+        "className" : "com.jsp.wfm.Controllers.UserController",
+        "methodHash" : 294786318
       }
     } ]
   },
