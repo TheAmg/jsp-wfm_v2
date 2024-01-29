@@ -2,20 +2,76 @@
   "classname" : "com.jsp.wfm.Services.UserService",
   "storedCandidateMap" : { },
   "declaredMockMap" : {
-    "com.jsp.wfm.Services.UserService#getULO#()Lcom/jsp/wfm/Models/Entities/UserListInfo;" : [ {
-      "id" : "5826dc4b-125f-4a12-a2de-72875fa8ba6a",
-      "name" : "empty",
+    "com.jsp.wfm.Services.UserService#getUser#(Ljava/lang/String;)Lcom/jsp/wfm/Models/Entities/User;" : [ ],
+    "com.jsp.wfm.Services.UserService#getOpUser#()Ljava/util/Optional;" : [ {
+      "id" : "690fdba4-f368-473a-be86-90752eaec7c8",
+      "name" : "mock response userService.getOpUser",
       "fieldTypeName" : "com.jsp.wfm.Services.UserService",
       "sourceClassName" : "com.jsp.wfm.Controllers.UserController",
       "fieldName" : "userService",
-      "methodName" : "getULO",
+      "methodName" : "getOpUser",
       "whenParameter" : [ ],
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"id\": 0, \"users\": [{}]}",
+          "value" : "{\"user_id\": \"0\", \"username\": \"string\", \"password\": \"string\", \"email\": \"string\"}",
           "returnValueType" : "REAL",
-          "className" : "com.jsp.wfm.Models.Entities.UserListInfo"
+          "className" : "java.util.Optional<com.jsp.wfm.Models.Entities.User>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "com.jsp.wfm.Services.UserService#getOpUser#(Ljava/lang/String;)Ljava/util/Optional;" : [ ],
+    "com.jsp.wfm.Services.UserService#getInstantJavaTime#()Ljava/time/Instant;" : [ {
+      "id" : "3d716989-230c-4494-a4b0-01227dab90d1",
+      "name" : "mock response userService.getInstantJavaTime",
+      "fieldTypeName" : "com.jsp.wfm.Services.UserService",
+      "sourceClassName" : "com.jsp.wfm.Controllers.UserController",
+      "fieldName" : "userService",
+      "methodName" : "getInstantJavaTime",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "1706163288",
+          "returnValueType" : "REAL",
+          "className" : "java.time.Instant"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "com.jsp.wfm.Services.UserService#getJodaInstant#()Lorg/joda/time/Instant;" : [ {
+      "id" : "55bf922c-948c-4fa9-b443-47fccd3db88c",
+      "name" : "mock response userService.getJodaInstant",
+      "fieldTypeName" : "com.jsp.wfm.Services.UserService",
+      "sourceClassName" : "com.jsp.wfm.Controllers.UserController",
+      "fieldName" : "userService",
+      "methodName" : "getJodaInstant",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"iMillis\": \"0\"}",
+          "returnValueType" : "REAL",
+          "className" : "org.joda.time.Instant"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "com.jsp.wfm.Services.UserService#getJodaDateTime#()Lorg/joda/time/DateTime;" : [ {
+      "id" : "61ef0730-c67e-49e3-a76c-9740a9eec686",
+      "name" : "mock response userService.getJodaDateTime",
+      "fieldTypeName" : "com.jsp.wfm.Services.UserService",
+      "sourceClassName" : "com.jsp.wfm.Controllers.UserController",
+      "fieldName" : "userService",
+      "methodName" : "getJodaDateTime",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"iMillis\": \"0\", \"iChronology\": null}",
+          "returnValueType" : "REAL",
+          "className" : "org.joda.time.DateTime"
         },
         "methodExitType" : "NORMAL"
       } ]

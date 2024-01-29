@@ -1,0 +1,46 @@
+{
+  "classname" : "com.jsp.wfm.Services.VehicleServiceImpl",
+  "storedCandidateMap" : {
+    "com.jsp.wfm.Services.VehicleServiceImpl#getUserProfile#(Ljava/lang/String;)Lcom/jsp/wfm/Models/Entities/User;" : [ {
+      "lineNumbers" : [ 20, 21, 22 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"user_id\":0,\"username\":\"string\",\"password\":\"temp-pass\",\"email\":\"string\"}",
+          "id" : "3c0a5fb2-9259-4ef5-9d89-8de1f18d93f3",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "c82a889e-68ca-48a1-abc4-fa8a66680a7f",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "ca24800f-7935-421d-a0c8-bf83eac1fd63",
+      "name" : "vservice string case",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "{\"user_id\":0,\"username\":\"string\",\"password\":\"temp-pass\",\"email\":\"string\"}",
+      "returnValueClassname" : "com.jsp.wfm.Models.Entities.User",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25047255845693,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 800576384,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjowLCJ1c2VybmFtZSI6InN0cmluZyIsInBhc3N3b3JkIjoidGVtcC1wYXNzIiwiZW1haWwiOiJzdHJpbmcifQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getUserProfile",
+        "signature" : "(Ljava/lang/String;)Lcom/jsp/wfm/Models/Entities/User;",
+        "className" : "com.jsp.wfm.Services.VehicleServiceImpl",
+        "methodHash" : 1921448855
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

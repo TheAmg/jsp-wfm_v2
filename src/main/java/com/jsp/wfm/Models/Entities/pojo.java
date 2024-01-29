@@ -1,10 +1,10 @@
 package com.jsp.wfm.Models.Entities;
 
-import lombok.Builder;
-import lombok.ToString;
+//import lombok.Builder;
+//import lombok.ToString;
 
-@Builder
-@ToString
+//@Builder
+//@ToString
 public class pojo {
     int id;
 

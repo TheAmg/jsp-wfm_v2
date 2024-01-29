@@ -1,0 +1,72 @@
+{
+  "classname" : "com.jsp.wfm.Dao.UsersRepository",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "com.jsp.wfm.Dao.UsersRepository#getUserByUsername#(Ljava/lang/String;)Lcom/jsp/wfm/Models/Entities/User;" : [ {
+      "id" : "cfd1f049-a3fc-4aa8-adb3-908765208cba",
+      "name" : "get username",
+      "fieldTypeName" : "com.jsp.wfm.Dao.UsersRepository",
+      "sourceClassName" : "com.jsp.wfm.Services.UserService",
+      "fieldName" : "usersRepository",
+      "methodName" : "getUserByUsername",
+      "whenParameter" : [ {
+        "name" : "username",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\n  \"user_id\" : \"1\",\n  \"username\" : \"bbb\",\n  \"password\" : \"bbb\",\n  \"email\" : \"bbb\"\n}",
+          "returnValueType" : "REAL",
+          "className" : "com.jsp.wfm.Models.Entities.User"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "com.jsp.wfm.Dao.UsersRepository#getOptionalUser#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
+      "id" : "03fc20dc-f747-4fc0-a984-ce7505edca90",
+      "name" : "mock response usersRepository.getOptionalUser",
+      "fieldTypeName" : "com.jsp.wfm.Dao.UsersRepository",
+      "sourceClassName" : "com.jsp.wfm.Services.UserService",
+      "fieldName" : "usersRepository",
+      "methodName" : "getOptionalUser",
+      "whenParameter" : [ {
+        "name" : "username",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\n  \"user_id\" : \"1\",\n  \"username\" : \"eee\",\n  \"password\" : \"eee\",\n  \"email\" : \"eee\"\n}",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Optional<com.jsp.wfm.Models.Entities.User>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "com.jsp.wfm.Dao.UsersRepository#findById#(Ljava/lang/Object;)Ljava/util/Optional;" : [ {
+      "id" : "053849b5-f531-4ee4-8947-4d31e7abfd07",
+      "name" : "mock response usersRepository.findById",
+      "fieldTypeName" : "com.jsp.wfm.Dao.UsersRepository",
+      "sourceClassName" : "com.jsp.wfm.Services.UserService",
+      "fieldName" : "usersRepository",
+      "methodName" : "findById",
+      "whenParameter" : [ {
+        "name" : "id",
+        "type" : "ANY_OF_TYPE",
+        "value" : "long"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\n  \"user_id\" : \"12\",\n  \"username\" : \"12\",\n  \"password\" : \"12\",\n  \"email\" : \"12\"\n}",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Optional<com.jsp.wfm.Models.Entities.User>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}

@@ -8,6 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.PropertiesPropertySource;
 import org.springframework.core.io.support.EncodedResource;
 import org.springframework.core.io.support.PropertySourceFactory;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.test.context.TestPropertySource;
 
 import java.io.IOException;
@@ -20,6 +21,7 @@ import java.io.IOException;
 //        factory = UnloggedRunnerTest.YamlPropertySourceFactory.class)           // this is for supporting yml files
 //@EnableConfigurationProperties({ApplicationProperties.class})                   // specify your test application properties
 @TestPropertySource("classpath:application.properties")
+@EnableJpaRepositories
 @TestConfiguration
 public class UnloggedRunnerTest {
 
