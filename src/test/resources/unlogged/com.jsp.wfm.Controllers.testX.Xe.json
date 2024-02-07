@@ -1,0 +1,7 @@
+{
+  "classname" : "com.jsp.wfm.Controllers.testX.Xe",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "com.jsp.wfm.Controllers.testX.Xe#getY#()I" : [ ]
+  }
+}

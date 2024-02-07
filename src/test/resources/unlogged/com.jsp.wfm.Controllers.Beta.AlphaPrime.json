@@ -1,0 +1,24 @@
+{
+  "classname" : "com.jsp.wfm.Controllers.Beta.AlphaPrime",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "com.jsp.wfm.Controllers.Beta.AlphaPrime#getY#()I" : [ {
+      "id" : "a05c9b92-279d-49b5-9832-b59043142260",
+      "name" : "mock response alpha.getY",
+      "fieldTypeName" : "com.jsp.wfm.Controllers.Beta.AlphaPrime",
+      "sourceClassName" : "com.jsp.wfm.Controllers.Beta",
+      "fieldName" : "alpha",
+      "methodName" : "getY",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"0\"",
+          "returnValueType" : "REAL",
+          "className" : "int"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}

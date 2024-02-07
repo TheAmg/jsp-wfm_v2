@@ -1,4 +1,3 @@
-
 package com.jsp.wfm.Controllers;
 
 import com.jsp.wfm.Models.Entities.User;
@@ -7,7 +6,6 @@ import com.jsp.wfm.Models.Entities.pojo;
 import com.jsp.wfm.Services.CustomService;
 import com.jsp.wfm.Services.UserService;
 import com.jsp.wfm.UserInstanceService;
-import io.unlogged.Unlogged;
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

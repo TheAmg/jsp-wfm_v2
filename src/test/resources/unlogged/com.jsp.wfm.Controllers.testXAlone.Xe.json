@@ -1,0 +1,24 @@
+{
+  "classname" : "com.jsp.wfm.Controllers.testXAlone.Xe",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "com.jsp.wfm.Controllers.testXAlone.Xe#getY#()I" : [ {
+      "id" : "1aa9f53e-a545-4aac-89bd-e58edb492360",
+      "name" : "mock response xe.getY",
+      "fieldTypeName" : "com.jsp.wfm.Controllers.testXAlone.Xe",
+      "sourceClassName" : "com.jsp.wfm.Controllers.testXAlone",
+      "fieldName" : "xe",
+      "methodName" : "getY",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"0\"",
+          "returnValueType" : "REAL",
+          "className" : "int"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}

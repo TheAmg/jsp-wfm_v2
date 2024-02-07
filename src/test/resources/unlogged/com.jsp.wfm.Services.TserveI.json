@@ -1,0 +1,24 @@
+{
+  "classname" : "com.jsp.wfm.Services.TserveI",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "com.jsp.wfm.Services.TserveI#doSomething#()I" : [ {
+      "id" : "79430862-d2ef-43bf-a32d-33468b9767ac",
+      "name" : "mock response tserveI.doSomething",
+      "fieldTypeName" : "com.jsp.wfm.Services.TserveI",
+      "sourceClassName" : "com.jsp.wfm.Controllers.UserController",
+      "fieldName" : "tserveI",
+      "methodName" : "doSomething",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"0\"",
+          "returnValueType" : "REAL",
+          "className" : "int"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}
